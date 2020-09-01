@@ -1,0 +1,197 @@
+@charset "utf-8"
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+*{box-sizing: border-box;
+}
+
+/* css共通設定 */
+html{
+  font-size: 16px;
+}
+body{
+ font-family: 'Yu Mincho',sans-serif,Arial, Helvetica;
+ background-color: #fff;
+ margin: 0px;
+ line-height: 1.7;
+}
+a{
+ text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/* ここまで */
+
+header{
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 27%;
+  height: 70vh;
+  border-bottom-right-radius: 10px ;
+  background-color: #000;
+  opacity: 0.85;
+}
+
+
+main{
+  background-color: papayawhip;
+  height: 2000px;
+}
+.main-contents{
+  width: 61%;
+  position: absolute;
+  top: 0px;
+  right: 110px;
+}
+
+
+.navigation{
+  display: flex;
+  background-color: black;
+  opacity: 0.85;
+  justify-content: flex-start;
+  width: 100%;
+  height: 40px;
+  border-radius: 0 0 5px 5px;
+  align-items: center;
+  padding-left: 10px;
+}
+.nav-first{
+  color: #f10303;
+  font-size: 12px;
+}
+.nav-first:hover{
+  text-decoration: underline;
+}
+.nav-second{
+  color: #fff;
+  font-size: 12px;
+}
+
+
+.contents-wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 0 auto ;
+  padding-top: 20px;
+}
+.explain1{
+  display: inline-block;
+  width: 20%;
+  height: 360px;
+}
+.explain2{
+  display: inline-block;
+  width: 30%;
+  height: 260px;
+}
+.choice{
+  display:inline-block;
+  width: 50%;
+  text-align: end;
+  height: 160px;
+  font-size: 13px;
+  padding-right: 10px;
+}
+.explain1 p{
+  font-size: 13px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+.explain2 p{
+  font-size: 15px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+.choice label{
+  display: block;
+}
+.recommened-plan{
+  display: inline-block;
+  width: 250px;
+  height: 650px;
+  background-color: #fffaf6;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: 'Yu Mincho';
+}
+.plan-img img{
+  width: 240px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 3px;
+  border:2px solid #cfb89a;
+}
+.plan-title{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.plan1{
+  height: 650px;
+  /* margin-top: 210px; */
+  /* margin-top: 10px; */
+}
+.plan2{
+  height: 620px;
+  /* margin-top:110px ; */
+  /* margin-top: 10px; */
+}
+.plan3{
+  height: 620px;
+  /* margin-top: 10px; */
+}
+.plan4{
+  height: 670px;
+}
+.plan5{
+  height: 655px;
+  /* position: relative; */
+  /* top: -100px; */
+}
+.plan6{
+  height: 670px;
+  /* position: relative; */
+  /* top: -200px; */
+}
+.plan-title p{
+  font-size: 16px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+
+  margin: 0;
+}
+.plan-contents{
+  font-size: 12px;
+  border-bottom:1px solid steelblue;
+  padding-bottom: 10px;
+}
+.plan-price{
+  font-size: 12px;
+  padding-top: 10px;
+}
+.plan-price span{
+  font-size: 16px;
+  font-weight: 400;
+}
+.front-check{
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+.front-check p{
+  display: inline-block;
+  width: 90px;
+}
+
+
+footer{
+  height: 100px;
+  background-color: #000;
+}
